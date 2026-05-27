@@ -1,0 +1,21 @@
+{
+  "name": "01-traducciones-openai",
+  "version": "1.0.0",
+  "description": "proyecto de traducciones usando JavaScript y el api de gemini",
+  "license": "MIT",
+  "author": "Edna Castañeda",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "serve": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.8.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
